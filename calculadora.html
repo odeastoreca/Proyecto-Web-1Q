@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <main>
-        <section class="calcu">
+        <div class="calcu">
             <h1 id="titulo_calcu">Calculadora IMC</h1>
             <div class="estatura"><h3>Estatura en metros</h3>
-                <input type="text">
+                <input id="estatura" type="text">
             </div>
             <div class="peso"><h3>Peso corporal en kilogramos</h3>
-                <input type="text">
+                <input id="peso" type="text">
             </div>
+            <div><button id="btnCalcular">Calcular</button></div>
+            <img src="img/imcc.png" alt="graficoIMC">
             
-
+        </div>
+    <script src="script.js"></script>
         </section>
     </main>
 </body>

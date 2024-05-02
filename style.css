@@ -402,7 +402,7 @@ button:hover {
   background-color: #0056b3;
 }
 
-body {
+.body_calcu {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;

@@ -11,10 +11,10 @@
         <div class="calcu">
             <h1 id="titulo_calcu">Calculadora IMC</h1>
             <div class="estatura"><h3 id="h3">Estatura en metros</h3>
-                <input id="estatura" type="text">
+                <input id="estatura" type="number" max="3" pattern="[3-9]|[1-3][0-9]|4[0-2]">
             </div>
             <div class="peso"><h3 id="h3">Peso corporal en kilogramos</h3>
-                <input id="peso" type="text">
+                <input id="peso" type="number" pattern="[3-9]|[1-3][0-9]|4[0-2]">
             </div>
             <div><button id="btnCalcular">Calcular</button></div>
             <img src="img/imcc.png" alt="graficoIMC">

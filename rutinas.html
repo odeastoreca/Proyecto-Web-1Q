@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Generador de Rutinas de Entrenamiento</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="body_rut">
+  <div class="generador_rutinas">
+    <h2>Generador de Rutinas de Entrenamiento</h2>
+    <div>
+      <label for="dias">Selecciona la cantidad de días para tu rutina:</label>
+      <select id="dias">
+        <option value="1">1 día</option>
+        <option value="2">2 días</option>
+        <option value="3">3 días</option>
+        <option value="4">4 días</option>
+        <option value="5">5 días</option>
+        <option value="6">6 días</option>
+        <option value="7">7 días</option>
+      </select>
+    </div>
+    <button onclick="generarRutina()">Generar Rutina</button>
+    <div id="rutina"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

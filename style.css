@@ -481,3 +481,68 @@ h3 {
   font-size: 18px;
   text-align: center;
 }
+
+/* Generador de rutinas*/
+
+.body_rut {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #642873;
+}
+
+.generador_rutinas {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.generador_rutinas h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.generador_rutinas div {
+  margin-bottom: 10px;
+}
+
+.generador_rutinas label {
+  display: block;
+  margin-bottom: 5px;
+  color: #642873;
+}
+
+.generador_rutinas select,.generador_rutinas button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #642873;
+}
+
+.generador_rutinas button {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.generador_rutinas button:hover {
+  background-color: #0056b3;
+}
+
+#rutina {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
